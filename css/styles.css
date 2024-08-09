@@ -1,1 +1,50 @@
 /*ini css*/
+form{
+    padding: 12px;
+    background-color: antiquewhite;
+}
+
+main{
+    display: flex;
+}
+.title{
+    text-align: center;
+}
+
+aside{
+    padding: 48px;
+}
+
+.button{
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+}
+.bg-skyblue{
+    
+    background-color: skyblue;
+}
+.bg-reset{
+    background-color: crimson;
+    color: white;
+}
+.form-btn-container{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
+  }
+
+  footer{
+    text-align: center;
+  }

@@ -1,1 +1,1 @@
-// ini javasrcipt
+// ini javascript
