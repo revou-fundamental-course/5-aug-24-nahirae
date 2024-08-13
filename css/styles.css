@@ -1,11 +1,17 @@
 /*ini css*/
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", Arial;
+}
+
 form{
-    padding: 12px;
-    background-color: antiquewhite;
+    padding: 8px;
+    background-color: rgba(206, 218, 234, 0.648);
 }
 
 main{
     display: flex;
+    justify-content: space-around;
 }
 .title{
     text-align: center;
@@ -13,38 +19,96 @@ main{
 
 aside{
     padding: 48px;
+    width: 50%;
+}
+
+article, section{
+    text-align: justify;
+}
+.p-large{
+    font-size: larger;
 }
 
 .button{
     height: 32px;
+    padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    height: 50%;
+    letter-spacing: 1px;
 }
 .bg-skyblue{
-    
-    background-color: skyblue;
+    background-color: rgb(78, 144, 170);
+    color: white;
 }
 .bg-reset{
-    background-color: crimson;
-    color: white;
+    background-color: white;
+    border: 0.5px solid rgba(128, 128, 128, 0.516);
 }
 .form-btn-container{
     margin-top: 24px;
     margin-bottom: 16px;
 }
 
+button:active{
+    box-shadow: none;
+    background-color: gray;
+    transform: translateY(3px);
+}
 input[type=number]{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px;
     display: inline-block;
-    border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-family: monospace;
     font-size: 14px;
-  }
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+}
+input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+}
+input:active {
+    transform: scale(0.98);
+}
+input:focus{
+    border: 2px solid grey;
+}
 
-  footer{
+.num,
+.jk{
+    margin-bottom: 8px;
+    display: block;
+    font-size: .95rem;
+    color: #05060fe6;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+}
+.hasil{
     text-align: center;
-  }
+    padding: 8px;
+    background-color: rgba(206, 218, 234, 0.648);
+}
+
+.app{z
+    text-align: center;
+}
+.img-1{
+    width: 30%;
+    height: 50%;
+}
+.img-2{
+    width: 25%;
+    height: 10%;
+}
+
+#resultBMI{
+    font-size: 50px;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+}
